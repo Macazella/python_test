@@ -1,4 +1,4 @@
-# Python_test
+# Python_test_selenium
 Aquí insertaré mis primeros códigos en Python
 
 Para crear un histograma similar al que has descrito utilizando Seaborn en Python, sigue estos pasos completos, incluyendo cómo preparar la base de datos y el código necesario. 
