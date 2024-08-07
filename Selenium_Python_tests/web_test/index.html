@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form with Select Options</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form id="selectionForm">
+        <label for="option1">Option 1:</label>
+        <select id="option1">
+            <option value="A">A</option>
+            <option value="B">B</option>
+            <option value="C">C</option>
+        </select>
+        <br>
+        <label for="option2">Option 2:</label>
+        <select id="option2">
+            <option value="D">D</option>
+            <option value="E">E</option>
+            <option value="F">F</option>
+        </select>
+        <br>
+        <label for="option3">Option 3:</label>
+        <select id="option3">
+            <option value="G">G</option>
+            <option value="H">H</option>
+            <option value="I">I</option>
+        </select>
+        <br>
+        <button type="button" onclick="confirmSelection()">Confirm</button>
+    </form>
+    <script>
+        function confirmSelection() {
+            alert('Selection confirmed!');
+        }
+    </script>
+</body>
+</html>
